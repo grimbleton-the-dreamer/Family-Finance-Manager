@@ -1,0 +1,6 @@
+1. Login to postgres instance/account and dump the data base
+Instructions: https://www.netguru.com/blog/how-to-dump-and-restore-postgresql-database
+2.Place into directory with docker file
+3.Go to terminal
+4.Use docker compose file to create container using custom postgres image
+docker-compose up -d -->use this in directory of docker compose file
