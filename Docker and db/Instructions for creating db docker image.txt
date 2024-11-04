@@ -1,6 +1,10 @@
 1. Login to postgres instance/account and dump the data base
 Instructions: https://www.netguru.com/blog/how-to-dump-and-restore-postgresql-database
 2.Place into directory with docker file
-3.Go to terminal
+3.Go to terminal in current directory
+4.sudo docker build -t finacefamdb .Dockerfile
+
+
+//for later us we will auto build with docker compose
 4.Use docker compose file to create container using custom postgres image
 docker-compose up -d -->use this in directory of docker compose file
